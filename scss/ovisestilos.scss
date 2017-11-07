@@ -13,6 +13,19 @@ $secundario:#DBB21D;
 $servicios:#1F1F1F;
 $nav:#E9BC00;
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+
+}
+
 html{
     font-size: 15px;
 }
@@ -25,7 +38,7 @@ body{
 
 .bienvenidos{
     
-    background: url(../images/disenosweb.jpg);
+    
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -34,6 +47,20 @@ body{
     flex-direction: column;
     justify-content: space-between;
     
+}
+.bienvenidos .slideshow{
+  
+    
+}
+.bienvenidos ul,ol{
+    list-style: none;
+   
+}
+.bienvenidos ul li{
+   height: 100vh;
+}
+.bienvenidos ul li img{
+  max-width: 100%;
 }
 
 .encabezado{
